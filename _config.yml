@@ -84,3 +84,8 @@ deploy:
   type: git
   repo: https://github.com/ziv-chan/ziv-chan.github.io.git
   branch: master
+
+
+live2d:
+  model: miku
+  bottom: 30
