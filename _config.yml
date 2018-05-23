@@ -89,3 +89,9 @@ deploy:
 live2d:
   model: miku
   bottom: 30
+
+search:
+  path: search.xml
+  field: post
+  format: html
+  limit: 10000
