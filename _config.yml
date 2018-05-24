@@ -15,7 +15,7 @@ timezone: Asia/Shanghai
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 url: https://ziv-chan.github.io/
 root: /
-permalink: :articles/:abbrlink/
+permalink: articles/:abbrlink/
 permalink_defaults:
 
 # Directory
