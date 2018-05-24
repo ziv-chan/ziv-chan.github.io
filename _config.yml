@@ -15,7 +15,7 @@ timezone: Asia/Shanghai
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 url: https://ziv-chan.github.io/
 root: /
-permalink: :year/:month/:day/:title/
+permalink: :articles/:abbrlink/
 permalink_defaults:
 
 # Directory
@@ -120,3 +120,8 @@ image_minifier:
   optimizationLevel: 2
   pngquant: false
   progressive: false
+
+# abbrlink config
+abbrlink:
+  alg: crc32  # 算法：crc16(default) and crc32
+  rep: hex    # 进制：dec(default) and hex
