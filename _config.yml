@@ -95,3 +95,28 @@ search:
   field: post
   format: html
   limit: 10000
+
+
+
+html_minifier:
+  enable: true
+  ignore_error: false
+  exclude:
+css_minifier:
+  enable: true
+  exclude:
+    - '*.min.css'
+js_minifier:
+  enable: true
+  mangle: true
+  output:
+  compress:
+  exclude:
+    - '*.min.js'
+image_minifier:
+  enable: true
+  interlaced: false
+  multipass: false
+  optimizationLevel: 2
+  pngquant: false
+  progressive: false
